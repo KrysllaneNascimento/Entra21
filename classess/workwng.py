@@ -1,0 +1,11 @@
+# print('='*100)
+# print('CARROT CAKE\n\nDough Ingredients:\n270 grams of CARROTS (approximately 3 medium carrots)\n200 ml of SUNFLOWER OIL\n3 EGGS 360 grams of SUGAR or 2 cups of tea\n240 grams of WHEAT FLOUR or 2 cups of tea\n8 grams of YEAST POWDER or 2 teaspoons \n\nGanache Ingredients:\n200 grams HALF BITTER CHOCOLATE chopped\n100 grams of MILK CREAM\n\nDough preparation method:\nFirst, grease and flour a cake pan.\nBlend the carrots, oil, eggs and sugar in a blender for approximately 5 minutes.\nPlace in a bowl and add the sifted flour and yeast. Mix.\nBake at 180˚C for approximately 50 minutes or until your toothpick comes out clean from inside the cake.')
+# print('='*100)
+#================
+# print('='*100)
+# print('INDIAN CAKE\n\nDough Ingredients:\n6 eggs\n100g butter or margarine (unsalted)\n1 and ½ cups of demerara sugar\n1 and ½ cups of breadcrumbs\n1 tablespoon of powdered cinnamon\n1 tablespoon of baking powder\n\nTopping Ingredients:\n2 gems\n200ml of milk\n1 can of condensed milk\n1 tablespoon butter or margarine (unsalted)\nground cinnamon (for garnish)\n\nDough preparation method:\nSeparate the whites and yolks and set aside.\nIn electric mixer, beat the egg whites .Still in the mixer, beat the egg yolks, butter or margarine and sugar, until creamy.\nAdd the breadcrumbs, cinnamon powder and baking powder and mix with a spoon.\nPour the dough into a medium rectangular shape, greased and floured.\nBake in a preheated oven at 180°C for 40 minutes (approximately).\nCover preparation method:\nIn a pan, mix the yolks, milk, condensed milk and butter or margarine.\nBring to a medium heat, stirring constantly, until you get the soft brigadeiro point.\nWait for it to cool and cover the cake.\nSprinkle ground cinnamon on top to decorate.')
+# print('='*100)
+#===============
+# print('='*100)
+# print('BROWNIE\n\nIngredients:\n2 cups of powdered chocolate\n1 cup of wheat flour\n1 cup of sugar\n200g of butter\n4 eggs\n\nPreparation mode:\nIn a bowl, place the eggs, sugar and beat with the help of a fouet or fork;\nThen add the butter and chocolate powder;\nMix\neverything and then add the wheat flour;\nStir the dough until it is homogeneous;\nThen, pour the dough in a greased shape with powdered chocolate;\nBake in a preheated oven at 180º for 35 minutes.\nRemove from oven and serve!')
+# print('='*100)
