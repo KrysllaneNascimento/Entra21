@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+}
+body{
+    background: linear-gradient(to right, #ff47f9 0%, #00ffff 100%);
+}
+li{
+    font-weight: bold;
+}
+code{
+    background-color: aliceblue;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 150px;
+
+}
+.tipo1{
+    width: 300px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+
+}
