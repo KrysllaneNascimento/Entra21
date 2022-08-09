@@ -67,8 +67,6 @@ h2{
   transition: 5s ease-in-out;
 }
 
-a:hover {background-color: #ffffff; }
-
 .checkbox-container{
   display: flex;
   justify-content: center;
@@ -127,7 +125,7 @@ a:hover {background-color: #ffffff; }
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +215,7 @@ a:hover {background-color: #ffffff; }
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 3rem 0;
+  margin: 3rem;
 }
 .card-container2{
   display: flex;
@@ -255,7 +253,7 @@ a:hover {background-color: #ffffff; }
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 3rem 0;
+  margin: 3rem;
 }
 .card-container3{
   display: flex;
@@ -293,4 +291,14 @@ a:hover {background-color: #ffffff; }
   width: 50px ;
   justify-content: center;
   align-items: center;
+}
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #00ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1E1E2A;
+  font-size: larger;
 }
