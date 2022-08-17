@@ -1,0 +1,28 @@
+button{
+    font-size: 12pt;
+    padding: 30px;
+}
+button{
+    width: 200px;
+    height: 80px;
+    appearance: auto;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    /* letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal; */
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: default;
+    margin: 0em;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+button:hover{
+    background-color:gray;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex004.css">
+</head>
+<body>
+    <h1>Trabalhando com dados v2.0</h1>
+    <input onclick="clicou()" type="button" value="Clique aqui para começar">
+    <section>
+        <p id="resultado">Aqui vai aparecer o resultado...</p>
+    </section>
+    <script>
+        function clicou(){
+            let nome = window.prompt('Qual é o seu nome')
+            let resp = window.document.getElementById('resultado')
+            resp.innerHTML =`<p>Olá, <strong>${nome}</strong>! É um grande prazer te conhecer! &#x1F60A`     
+        }
+    </script>
+    
+</body>
+</html>

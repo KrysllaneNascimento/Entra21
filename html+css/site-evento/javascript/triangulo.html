@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt('Medida lado A: '))
+        let b = parseInt(prompt('Medida lado B: '))
+        let c = parseInt(prompt('Medida lado C: '))
+        if (a > b+c || b > c+a || c> a+b){
+            alert('Essas medidas NÃO formam um TRIÂNGULO')
+        }else if(a===b && b===c){
+            alert('Triângulo EQUILÁTERO')
+        }else if(a==b && a!=c || a==c && c!=b || c==b && b!=a){
+            alert('Triângulo ISÓCELES ')
+        }else{
+            alert('Triangulo ESCALENO')
+        }
+    </script>
+    
+</body>
+</html>

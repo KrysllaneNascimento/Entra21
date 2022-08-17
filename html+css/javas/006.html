@@ -1,0 +1,28 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    function triangulo(){
+        let l1 = parseInt(document.getElementById('l1').value)
+        let l2 = parseInt(document.getElementById('l2').value)
+        let l3 = parseInt(document.getElementById('l3').value)
+        let resposta = document.getElementById('resposta')
+
+        
+        if (l1==l2 && l1==l3){
+                resposta.innerHTML ='Triângulo Equilátero'
+            }else if(l1>l2+l3 || l2>l1+l3 || l3>l1+l2){
+                resposta.innerHTML ='Não é um Triângulo'
+            }else if(l1==l2 || l2==l3 || l1==l3){
+                resposta.innerHTML ='Triângulo Isóceles'
+            }else{
+                resposta.innerHTML ='Triângulo Escaleno'
+            }
+        }
+    </script>
+</body>
+</html>
