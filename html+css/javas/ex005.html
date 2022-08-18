@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <h1>Trabalhando com números</h1>
-    <input type="button" onclick="calculo()" value="Clique para calcular">
-    <section>
-        <p id="resultado">O resultado vem ai..</p>
+    <button type="button" onclick="calculo()" class="btn btn-primary btn-lg">Clique para calcular</button>
+    <section id="res">
+        <p>O resultado vem ai..</p>
     </section>
     <script>
         function calculo(){
             let num = Number(window.prompt('Digite um número: '))
-            let resposta = document.querySelector('section#res')
-            resposta.innerHTML = `<p> O dobro de ${num} é ${num*2} e a metade é ${num/2}  ! </p>`
+            let resposta = document.querySelector('#res')
+            resposta.innerHTML = `<p> O dobro de ${num} é ${num*2} e a metade é ${num/2} ! </p>`
         }
 
     </script>

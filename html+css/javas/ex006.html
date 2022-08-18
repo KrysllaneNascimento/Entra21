@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Somando dois número</h1>
+    <button type="button" onclick="somar()" class="btn btn-primary btn-lg">Inicar Soma</button>
+    <style> button{margin: 10px;} </style>
+    <section id="res">
+        <p>O resultado vem ai</p>
+    </section>
+
+    <script>
+        function somar(){
+            var num1 = Number(window.prompt('Digite um número: '))
+            var num2 = Number(window.prompt('Digite outro número'))
+            var resultado = document.querySelector('#res')
+            resultado.innerHTML = `<p>A soma entre ${num1} e ${num2} é igual a <strong>${num1+num2}</strong> </p>`
+
+        }
+    </script>
+    
+</body>
+</html>

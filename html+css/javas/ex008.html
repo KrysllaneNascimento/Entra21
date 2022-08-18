@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Vários calculos com JavaScript</h1>
+    <button type="button" onclick="varios()" class="btn btn-primary btn-lg">Clique aqui para calcular</button>
+    <style> button{margin-top: 20px;} p{margin-top: 20px;}</style>
+    <section id="result">
+        <p>O resultado vai aparecer aqui...</p>
+        <hr>
+
+    </section>
+
+
+    <script>
+        function varios(){
+            let num = Number(window.prompt('Digite um número:'))
+            let resul = document.querySelector('#result')
+            resul.innerHTML += `<p>O número a ser analisado aqui será o <strong>${num}</strong></p>`
+            resul.innerHTML += `<p>O seu valor absoluto é ${Math.abs(num)}</p>`
+            resul.innerHTML += `<p>A sua parte inteiro é ${Math.trunc(num)}</p>`
+            resul.innerHTML += `<p>O seu valor inteiro mais próximo é ${Math.round(num)}</p>`
+            resul.innerHTML += `<p>A sua raiz quadrada é ${Math.sqrt(num)}</p>`
+            resul.innerHTML += `<p>A sua raiz cúbica é ${Math.cbrt(num)}  </p>`
+            resul.innerHTML += `<p>O valor de ${num} <sup>2</sup> é ${Math.pow(num,2)}</p>`
+            resul.innerHTML += `<p>O valor de ${num} <sup>3</sup> é ${Math.pow(num,3)}</p>`
+        }
+    </script>
+    
+    
+</body>
+</html>
