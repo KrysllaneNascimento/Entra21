@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turistando</title>
+    <link rel="stylesheet" href="pag-italia.css">
+</head>
+<body>
+  <nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul class="fonte">
+      <li><a href='http://'>Início</a></li>
+      <li><a class='dropdown-arrow' href='http://'>Pontos Turísticos</a>
+        <ul class='sub-menus'>
+          <li><a href='http://'>Brasil</a></li>
+          <li><a href='http://'>Itália</a></li>
+          <li><a href='http://'>Alemanha</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="container">
+    <div class="foto_principal">
+        <img class="italia_prin" src="pisa.jpg">
+    </div>
+  </section>
+  
+
+
+
+  <div class="texto_prin">
+    <h1>Iremos apresentar aqui, os pontos turísticos mais visitados da Itália</h1>
+  </div>
+  <div>
+    <figure class="fotos">
+      <a href=""><img  src="coliseu(italia).jpg" alt=""></a>
+      <figcaption>
+            <h2>Coliseu</h2><br>
+            <p>o Coliseu em Roma é um dos monumentos mais famosos do mundo <br>
+              Sua construção se iniciou no ano de 72 d.C. e, durante décadas, <br>
+              serviu de palco para gladiadores que lutavam entre si ou com animais para um público de mais de 70 mil romanos.
+            </p>
+       
+      </figcaption>
+    </figure>
+  </div>
+
+
+  <div>
+    <figure class="fotos">
+      <a href=""><img cl src="Fontana di Trevi(italia).jpg" alt=""></a>
+      <figcaption>
+        <h2>Fortana di Travi</h2><br>
+        <p>
+          Fontana di Trevi virou uma tradição pelos turistas que se aglomeram para fazer o<br>
+          tradicional ritual de jogar uma moeda na água que, conforme a lenda,<br>
+          faz com que o visitante retorne à cidade.
+
+        </p>
+    </figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="fotos">
+      <a href=""><img  src="Cinque Terre(italia).jpg" alt=""></a>
+      <figcaption>
+        <h2>Cinque Terre</h2><br>
+        <p>
+          Cinque Terre é, na verdade, um dos menores e mais populosos parques nacionais da Itália,<br>
+          Este destino é ideal para quem quer fazer boas caminhadas, observar a natureza,<br> 
+          degustar de um bom peixe e claro registrar tudo em belas fotografias
+
+        </p>
+    </figcaption>
+    </figure>
+  </div>
+
+
+  <div>
+    <figure class="fotos">
+      <a href=""><img  src="Catedral de Milão(italia).jpg" alt=""></a>
+      <figcaption>
+        <h2>Catedral de Milão</h2>
+        <p>
+          Catedral de Milão é considerada a terceira maior igreja do mundo, ela foi construída a partir, <br>
+          de 1386 por iniciativa do arcebispo Antonio de Saluzzi (1376-1401),e sua conclusão só ocorreu no século XIX.
+        </p>
+    </figcaption>
+    </figure>
+  </div>
+
+
+  <div>
+    <figure class="fotos">
+      <a href=""><img  src="Panteão(italia).jpg" alt=""></a>
+      <figcaption>
+        <h2>Panteão</h2>
+        <p>
+          O Panteão (Pantheon) é o monumento mais bem preservado da Roma Antiga é originalmente politeísta,já que seu arquiteto<br>
+          Marcus Agrippa, dedicou-o a uma série de deuses,o lugar foi concebido para ser um local de adoração ao divino.
+        </p>
+    </figcaption>
+    </figure>
+  </div>
+
+
+
+  <div>
+    <figure class="fotos">
+      <a href=""><img  src="torre de pizza(italia).jpg" alt=""></a>
+      <figcaption>
+        <h2>Torre de Pisa</h2>
+        <p>
+          A Torre de Pisa foi construída para cumprir os rituais do catolicismo medieval. <br>
+          Com oito andares e 207 colunas de mármore, a estrutura tem 56,67 metros<br>
+          e contém 251 degraus que levam ao topo por meio de escadas em espiral.<br>
+          Embora qualquer projeto de construção dessa magnitude leve tempo,<br>
+          guerras repetidas interromperam a construção da torre. 
+        </p>
+    </figcaption>
+    </figure>
+  </div>
+
+
+  <script>
+    function updatemenu() {
+      if (document.getElementById('responsive-menu').checked == true) {
+      document.getElementById('menu').style.borderBottomRightRadius = '0';
+      document.getElementById('menu').style.borderBottomLeftRadius = '0';
+      }else{
+        document.getElementById('menu').style.borderRadius = '10px';
+      }
+    }
+  </script>
+</body>
+</html>
