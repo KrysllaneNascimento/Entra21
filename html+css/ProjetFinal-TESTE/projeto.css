@@ -167,14 +167,15 @@ h1{
     color: whitesmoke;
 }
 
-.cont{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 17px;
-    color:  whitesmoke;
-}
 
 /* 3 folha */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 .flex-container {
     display: flex;
     align-items: center;
@@ -189,112 +190,119 @@ h1{
     margin: 5px;
     box-shadow: 0 0 7px rgb(0 0 0 / 30%);
     border-radius: 2px;
-    
     }
-
-.slider{
-    width: 500px;
-    height: 300px;
-    overflow: hidden;
-    margin-left: 300px;
-}
-.slides{
-    width: 400%;
-    height: 390px;
-    display: flex;
-    
-    
-}
-
-.slides input{
-    display: none;
-
-}
-.slide{
-    width: 25%;
+#section{
     position: relative;
-    transition: 2s;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(logo.jfif);
+    background-size: cover;
+    background-repeat: repeat;
 
 }
 
-.slide img {
-    width: 500px;
+.content{
+   position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 800px;
+}
+.content .textBox h2{
+    color: #FFFFFF;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #2C4B7A;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgBox{
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  padding-left: 200px;
+  margin-top: 50px;
+}
+.content .imgBox img{
+    max-width: 340px;
+}
+.content .textBox p{
+    color: #FFFFFF;
     
 }
-
-.manual-navigation{
+.thumb{
     position: absolute;
-    width: 500px;
-    margin-top: -150px;
-    margin-left: 210px;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
     display: flex;
-    
 }
-
-.manual-btn{
-    border: 2px solid #2C4B7A;
-    padding: 5px;
-    border-radius: 10px;
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
-
-.manual-btn:not(:last-child){
-    margin-right: 25px;
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 100px;
+    margin-top: -200px;
+}
+.sci{
+   position: absolute;
+   top: 50%;
+   right: 30px;
+   transform: translateY(-50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+}
+.sci li{
+    list-style: none;
 
 }
- .manual-btn:hover{
-    background-color: #2C4B7A;
- }
-
- #radio1:checked ~ .first{
-    margin-left: 0;
- }
-
- #radio2:checked ~ .first{
-    margin-left: -25%;
- } 
-
- #radio3:checked ~ .first{
-    margin-left: -50%;
- }
- 
- #radio4:checked ~ .first{
-    margin-left: -75%;
- }
-
- .navigation-auto div{
-    border: 2px solid #2C4B7A;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
- }
-
- .navigation-auto{
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+.circle{
     position: absolute;
-    width: 500px;
-    margin-top: 240px;
-    margin-left: 210px;
-    display: flex;
- }
- 
-.navigation-auto div:not(:last-child){
-    margin-right: 25px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2C4B7A;
+    clip-path: circle(600px at right 800px);
+
+
+
 }
- 
- #radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: #2C4B7A;
- }
-
- #radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: #2C4B7A;
- }
-
- #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: #2C4B7A;
- }
-
- #radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: #2C4B7A;
- }
