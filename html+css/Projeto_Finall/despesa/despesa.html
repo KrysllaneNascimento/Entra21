@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BriWing</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="despesa.css">
+</head>
+<body>
+
+    <header>
+        <h1>DESPESAS</h1>
+    </header>
+    <input type="checkbox" id="check">
+    <label for="check" class="check">
+        <img src="imagens/men.png" alt="">
+    </label>
+    <nav class="menu">
+        <ul>
+            <li> <a href="#">Teste1</a></li>
+            <li> <a href="#">Teste</a></li>
+            <li> <a href="#">Teste</a></li>
+            <li> <a href="#">Teste</a></li>
+        </ul>
+    </nav>
+
+    <img class="logo" src="imagens/carteira.png">
+    
+    <div class="box">
+        <form action="">
+            <fieldset>
+
+                <div class="inputBox">
+                    <p>Data <img src="imagens/calend.jfif" alt=""></p>
+                    <input  type="date" name="nome" id="data" class="inputCar" required>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="hora" class="inputCar" required>
+                    <label for="nome" class="labelInput">Valor R$ <img src="imagens/dinheiro.jfif" alt=""></label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="odometro" class="inputCar" required>
+                    <label for="nome" class="labelInput">Odômetro <img src="imagens/gas.jfif" alt=""></label>
+                </div>
+                <br><br>
+                
+                <form>
+                    <label for="browser">Tipo de despesa</label>
+                    <br>
+                    <input list="browsers"  class="inputCar">
+                    <datalist id="browsers">
+                      <option value="Estacionamente"></option>
+                      <option value="Financiamento"></option>
+                      <option value="Impostos(IPVA/DPVAT)"></option>
+                      <option value="Lava-Rápido"></option>
+                      <option value="Lincenciamento"></option>
+                      <option value="Multa"></option>
+                      <option value="Pedágio"></option>
+                      <option value="Seguro"></option>
+                    </datalist>
+                  </form>
+                  <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="litro" class="inputCar" required>
+                    <label for="nome" class="labelInput">Local <img src="imagens/maps.jfif"> </label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="total" class="inputCar" required>
+                    <label for="nome" class="labelInput">Motivo(Opcional) </label>
+                </div>
+                <br><br>
+
+                <input type="submit" name="submit" id="submit" value="Cadastrar">
+            </fieldset>
+        </form>
+    </div>
+
+    
+</body>
+</html>

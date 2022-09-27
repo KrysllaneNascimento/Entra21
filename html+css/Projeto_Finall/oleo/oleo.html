@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BriWing</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="oleo.css">
+</head>
+<body>
+
+    <header>
+        <h1>TROCA DE ÓLEO</h1>
+    </header>
+    <input type="checkbox" id="check">
+    <label for="check" class="check">
+        <img src="imagens/menu.png" alt="">
+    </label>
+    <nav class="menu">
+        <ul>
+            <li> <a href="#">Teste1</a></li>
+            <li> <a href="#">Teste</a></li>
+            <li> <a href="#">Teste</a></li>
+            <li> <a href="#">Teste</a></li>
+        </ul>
+    </nav>
+
+    <img class="logo" src="imagens/galao.jfif">
+    
+    <div class="box">
+        <form action="">
+            <fieldset>
+
+                <div class="inputBox">
+                    <p>Data <img src="imagens/calend.jfif" alt=""></p>
+                    <input  type="date" name="nome" id="data" class="inputCar" required>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="hora" class="inputCar" required>
+                    <label for="nome" class="labelInput">Odômetro</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="litro" class="inputCar" required>
+                    <label for="nome" class="labelInput">KM para a Próxima Troca</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="litro" class="inputCar" required>
+                    <label for="nome" class="labelInput">Placa</label>
+                </div>
+                <br><br>
+                <p>Trocou o Filtro do Óleo?</p>
+                <br>
+                <input type="radio" id="sim" name="filtro" value="sim" required>
+                <label for="sim">Sim</label>
+                <input type="radio" id="nao" name="filtro" value="nao" required>
+                <label for="nao">Não</label>
+                <br><br>
+
+                <input type="submit" name="submit" id="submit" value="Cadastrar">
+            </fieldset>
+        </form>
+    </div>
+
+    
+</body>
+</html>
